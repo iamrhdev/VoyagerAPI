@@ -1,0 +1,15 @@
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\bin\Debug\net7.0\Voyager.Application.deps.json
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\bin\Debug\net7.0\Voyager.Application.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\bin\Debug\net7.0\Voyager.Application.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\bin\Debug\net7.0\Voyager.Domain.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\bin\Debug\net7.0\Voyager.Domain.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.csproj.AssemblyReference.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.AssemblyInfoInputs.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.AssemblyInfo.cs
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.csproj.CoreCompileInputs.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.csproj.CopyComplete
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\refint\Voyager.Application.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\Voyager.Application.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Core\Voyager.Application\obj\Debug\net7.0\ref\Voyager.Application.dll

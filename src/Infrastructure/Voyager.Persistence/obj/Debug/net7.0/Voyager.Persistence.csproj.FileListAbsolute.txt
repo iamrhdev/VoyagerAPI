@@ -1,0 +1,17 @@
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\bin\Debug\net7.0\Voyager.Persistence.deps.json
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\bin\Debug\net7.0\Voyager.Persistence.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\bin\Debug\net7.0\Voyager.Persistence.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\bin\Debug\net7.0\Voyager.Application.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\bin\Debug\net7.0\Voyager.Domain.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\bin\Debug\net7.0\Voyager.Application.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\bin\Debug\net7.0\Voyager.Domain.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.csproj.AssemblyReference.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.AssemblyInfoInputs.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.AssemblyInfo.cs
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.csproj.CopyComplete
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\refint\Voyager.Persistence.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\Voyager.Persistence.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Persistence\obj\Debug\net7.0\ref\Voyager.Persistence.dll

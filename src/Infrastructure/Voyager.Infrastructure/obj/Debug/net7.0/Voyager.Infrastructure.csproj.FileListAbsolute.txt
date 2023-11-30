@@ -1,0 +1,17 @@
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\bin\Debug\net7.0\Voyager.Infrastructure.deps.json
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\bin\Debug\net7.0\Voyager.Infrastructure.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\bin\Debug\net7.0\Voyager.Infrastructure.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\bin\Debug\net7.0\Voyager.Application.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\bin\Debug\net7.0\Voyager.Domain.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\bin\Debug\net7.0\Voyager.Application.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\bin\Debug\net7.0\Voyager.Domain.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.AssemblyInfo.cs
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.csproj.CopyComplete
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\refint\Voyager.Infrastructure.dll
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\Voyager.Infrastructure.pdb
+C:\Users\Rhabi\OneDrive\Documents\Voyager\Voyager\src\Infrastructure\Voyager.Infrastructure\obj\Debug\net7.0\ref\Voyager.Infrastructure.dll
