@@ -11,15 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AF01266A-75F6-4339-8AC3-44DD08918532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voyager.Application", "src\Core\Voyager.Application\Voyager.Application.csproj", "{4CA37E94-1CDA-49BD-8BD0-AE9541A0838C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voyager.Application", "src\Core\Voyager.Application\Voyager.Application.csproj", "{4CA37E94-1CDA-49BD-8BD0-AE9541A0838C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voyager.Domain", "src\Core\Voyager.Domain\Voyager.Domain.csproj", "{395AB856-1E50-44D1-A18F-BF2FE902C830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voyager.Domain", "src\Core\Voyager.Domain\Voyager.Domain.csproj", "{395AB856-1E50-44D1-A18F-BF2FE902C830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voyager.Infrastructure", "src\Infrastructure\Voyager.Infrastructure\Voyager.Infrastructure.csproj", "{0877CA98-D29F-4184-AF53-A528DA2E71D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voyager.Infrastructure", "src\Infrastructure\Voyager.Infrastructure\Voyager.Infrastructure.csproj", "{0877CA98-D29F-4184-AF53-A528DA2E71D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voyager.Persistence", "src\Infrastructure\Voyager.Persistence\Voyager.Persistence.csproj", "{9AD0B57D-B68F-4797-8BA1-E13C7077EBD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voyager.Persistence", "src\Infrastructure\Voyager.Persistence\Voyager.Persistence.csproj", "{9AD0B57D-B68F-4797-8BA1-E13C7077EBD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voyager.API", "src\Presentation\WebApplication1\Voyager.API.csproj", "{AA1E6094-B271-42E2-B9E6-E4AD71DEFB7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Voyager.API", "src\Presentation\WebApplication1\Voyager.API.csproj", "{AA1E6094-B271-42E2-B9E6-E4AD71DEFB7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CE02B8BF-6054-4BF3-A3CD-AEF8E9DD5679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyagerUnitTests", "tests\VoyagerUnitTests\VoyagerUnitTests.csproj", "{3633F10A-FEA2-419C-B6E5-BA7D9FF0AFA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{AA1E6094-B271-42E2-B9E6-E4AD71DEFB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA1E6094-B271-42E2-B9E6-E4AD71DEFB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA1E6094-B271-42E2-B9E6-E4AD71DEFB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3633F10A-FEA2-419C-B6E5-BA7D9FF0AFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3633F10A-FEA2-419C-B6E5-BA7D9FF0AFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3633F10A-FEA2-419C-B6E5-BA7D9FF0AFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3633F10A-FEA2-419C-B6E5-BA7D9FF0AFA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{0877CA98-D29F-4184-AF53-A528DA2E71D8} = {6E9700E3-A5A1-4C57-9923-0572B0F8E681}
 		{9AD0B57D-B68F-4797-8BA1-E13C7077EBD5} = {6E9700E3-A5A1-4C57-9923-0572B0F8E681}
 		{AA1E6094-B271-42E2-B9E6-E4AD71DEFB7D} = {AF01266A-75F6-4339-8AC3-44DD08918532}
+		{3633F10A-FEA2-419C-B6E5-BA7D9FF0AFA4} = {CE02B8BF-6054-4BF3-A3CD-AEF8E9DD5679}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15260B4E-B57F-4C25-ABBC-B772FB6B8117}

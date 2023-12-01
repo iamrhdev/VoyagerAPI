@@ -44,7 +44,7 @@ namespace Voyager.Persistence.Implementations.Services
             try
             {
                 ArgumentNullException.ThrowIfNullOrEmpty(nameof(userRegisterDto));
-
+              
                 AppUser newUser = _mapper.Map<AppUser>(userRegisterDto);
 
                 IdentityResult identityResult = await _userManager.CreateAsync(newUser, userRegisterDto.Password);
