@@ -12,6 +12,7 @@ using Voyager.Domain.Enums;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
+using Voyager.Domain.Entities;
 
 namespace VoyagerUnitTests.Services.AuthServiceTests
 {
@@ -52,6 +53,26 @@ namespace VoyagerUnitTests.Services.AuthServiceTests
             UserRegisterDto userRegisterDto = null;
             //Act and Assert
             await Assert.ThrowsAsync<NullReferenceException>(() => _authService.Register(userRegisterDto));
+        }
+        [Fact]
+        public async Task Register_SuccessfulVisitorRegistration_CallsMethods()
+        {
+            // Arrange
+            var userRegisterDto = new UserRegisterDto("Visitor", "Rahil","Habibli", "rhabibli@outlook.com", "Password123!", "Password123!", "+994102184232", Roles.Visitor);
+            _userManagerMock.Setup(mock => mock.CreateAsync(It.IsAny<AppUser>(), It.IsAny<string>()))
+                .ReturnsAsync(IdentityResult.Success);
+            _userManagerMock.Setup(mock => mock.AddToRoleAsync(It.IsAny<AppUser>(), It.IsAny<string>()))
+                .ReturnsAsync(IdentityResult.Success);
+            _visitorWriteRepositoryMock.Setup(mock => mock.AddAsync(It.IsAny<Visitor>()))
+                .Returns(Task.FromResult(new Visitor()));
+
+            // Act
+            await _authService.Register(userRegisterDto);
+
+            // Assert
+            _userManagerMock.Verify(mock => mock.CreateAsync(It.IsAny<AppUser>(), It.IsAny<string>()), Times.Once);
+            _userManagerMock.Verify(mock => mock.AddToRoleAsync(It.IsAny<AppUser>(), It.IsAny<string>()), Times.Once);
+            _visitorWriteRepositoryMock.Verify(mock => mock.AddAsync(It.IsAny<Visitor>()), Times.Once);
         }
     }
 }

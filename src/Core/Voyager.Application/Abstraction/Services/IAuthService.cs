@@ -7,5 +7,6 @@ namespace Voyager.Application.Abstraction.Services
     {
         Task Register(UserRegisterDto userRegisterDto);
         Task<TokenResponseDto> Login(UserSignInDto userSignInDto);
+        Task<bool> UserNameExists(string userName);
     }
 }

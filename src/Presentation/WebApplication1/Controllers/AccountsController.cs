@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using Voyager.Application.Abstraction.Services;
@@ -33,10 +34,17 @@ namespace Voyager.API.Controllers
             return Ok(response);
         }
         [HttpPost("[action]")]
+        [Authorize]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
             return Ok();
+        }
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetUserByName(string userName)
+        {
+            bool response = await _authService.UserNameExists(userName);
+            return Ok(response);
         }
     }
 }

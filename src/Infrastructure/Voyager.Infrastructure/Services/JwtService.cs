@@ -30,6 +30,7 @@ namespace Voyager.Infrastructure.Services
             List<Claim> claims = new List<Claim>
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()), // Subject to UserID
+                new Claim(JwtRegisteredClaimNames.Name, user.UserName),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // new JWT Id
                 new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()), // Token generated Date Time
                 new Claim(ClaimTypes.NameIdentifier, user.Email.ToString()), // Unique name identifier of the user(email)

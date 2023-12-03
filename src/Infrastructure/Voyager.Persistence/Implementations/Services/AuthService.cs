@@ -72,6 +72,12 @@ namespace Voyager.Persistence.Implementations.Services
 
             return await TokenGenerator(user);
         }
+        public async Task<bool> UserNameExists(string userName)
+        {
+            ArgumentException.ThrowIfNullOrEmpty(nameof(userName));
+            AppUser? result = await _userManager.FindByNameAsync(userName);
+            return result != null;
+        }
         private async Task HandleRegistrationByRole(AppUser newUser, UserRegisterDto userRegisterDto)
         {
             switch (userRegisterDto.Role)
@@ -115,6 +121,7 @@ namespace Voyager.Persistence.Implementations.Services
             await _userManager.UpdateAsync(user);
             return tokenResponseDto;
         }
+
 
     }
 }
