@@ -11,6 +11,7 @@ namespace Voyager.Persistence.Contexts
         public VoyagerDbContext(DbContextOptions<VoyagerDbContext> options) : base(options) { }
         public DbSet<Visitor> Visitors { get; set; }
         public DbSet<HotelManager> HotelManagers { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var datas = ChangeTracker.Entries<BaseEntity>();

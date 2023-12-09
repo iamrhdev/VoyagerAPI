@@ -11,6 +11,6 @@ namespace Voyager.Application.Abstraction.Repositories
         Task<T?> GetByExpressionAsync(Expression<Func<T, bool>> expression, bool isTracking = true, params string[] include);
         Task<T?> GetByIdAsync(Guid id);
         Task<T?> GetByExpressionAsync(Expression<Func<T, bool>> expression, bool isTracking = true);
-
+        //List<Task<T?>> GetAllAsync(bool isTracking = true, params string[] includes);
     }
 }

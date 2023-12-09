@@ -58,7 +58,6 @@ namespace Voyager.Persistence.Implementations.Repositories
             }
             return isTracking ? query : query.AsNoTracking();
         }
-
         public async Task<T?> GetByExpressionAsync(Expression<Func<T, bool>> expression, bool isTracking = true)
         {
             var query = isTracking ? Table : Table.AsNoTracking();
@@ -77,6 +76,5 @@ namespace Voyager.Persistence.Implementations.Repositories
             return await query.SingleOrDefaultAsync(expression);
         }
         public async Task<T?> GetByIdAsync(Guid id) => await Table.FindAsync(id);
-
     }
 }
